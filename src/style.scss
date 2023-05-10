@@ -1,0 +1,302 @@
+$bodybackground-color: linear-gradient(to left, red, white);
+
+$divbackground : linear-gradient(to left, red, white);
+$divwidth1: 50%;
+$divmargin-top: 5%;
+$divheight: 450px;
+$margin: auto;
+$font-size: 28px;
+
+$iconbackground: blue;
+$iconborder: 50%;
+$iconpadding: 20px 28px;
+$icontop: 20%;
+$iconleft: 140px;
+
+$placeholder: 2%;
+$animate: 2s heartBeat alternate;
+
+$inputheight: 30px;
+$inputwidth: 70%;
+$inputborder: none;
+$inputmargin-left: 50px !important;
+$inputborder-radius: 15px;
+
+$contentbackground: linear-gradient(to left, rgb(146, 104, 104), rgba(255, 255, 255, 0.644), rgb(193, 212, 212));
+$contentborder-radius: 20px;
+$contentbox-shadow: 1px 1px 1px 1px black;
+$facebookpadding: 15px 22px;
+$facebookmargin-left: 60px;
+$facebookcolor: white;
+$facebookborder: 2px solid white;
+$facebookhovercolor: blue;
+$facebookhoverborder: 1px solid black;
+
+$whatsapppadding: 15px 18px;
+$whatsappmargin-left: 15px;
+$whatsappbackground-color: rgba(130, 245, 130, 0.658);
+$whatsappcolor: white;
+$whatsappborder: 1px solid white;
+$whatsapphoverbackground-color: white !important;
+$whatsapphovercolor: rgba(130, 245, 130, 0.658);
+$whatsapphoverborder: 1px solid black;
+
+$instagrampadding: 15px 18px;
+$instagramborder: 1px solid black;
+$instagrambackground: linear-gradient(to left, rgb(164, 164, 223), pink, rgb(187, 187, 233), pink);
+$instagrammargin-left: 15px;
+$instagramhovercolor: white !important;
+$instagramhoverborder: 1px solid white;
+
+$btnheight: 30px;
+$btnwidth: 70%;
+$btnborder: none;
+$btnmargin-left: 50px !important;
+$btnborder-radius: 15px;
+$btnfont-size: 15px;
+$btnletter-spacing: 2px;
+
+$h1left: 100px;
+$h3marginleft: 35px;
+
+
+
+    $mediabackground-image: $bodybackground-color;
+    $mediamargin: 0;
+    $mediapadding: 0;
+    
+
+
+
+    $mediadivwidth:100% !important;
+    $mediadivmargin: 0% !important;
+    $mediadivmargin-left: 0 !important;
+    
+
+
+
+    $mediacontentwidth: 90%;
+    $mediacontentheight:410px !important ;
+
+
+    $mediafacebookmargin: 0 !important;
+    $mediafacebookpadding: 15px 22px;
+    $mediafacebookmargin-left: 35px !important;
+    $mediafacebookmargin-top: 15% !important;
+
+    $mediawhatsappmargin: 0 !important;
+    $mediawhatsapppadding: 15px 17px;
+    $mediawhatsappmargin-left: 15px !important;
+    
+    $mediainstagrammargin: 0 !important;
+    $mediainstagrampadding: 15px 17px;
+    $mediainstagrammargin-left: 15px !important;
+
+    $mediah1margin-left:83px !important;
+
+    $mediatextmargin-left:38px!important;
+
+    $mediainputpasswordmargin-left:38px!important;
+
+    $mediabtnmargin-left:38px!important;
+
+    $mediah3marginleft:20px!important;
+
+body {
+    background-image: $bodybackground-color;
+}
+
+.mydiv {
+
+    width: $divwidth1;
+    height: $divheight ;
+    background-color: $divbackground ;
+    margin: $margin;
+    margin-top: $divmargin-top;
+
+
+}
+
+.content {
+    width: $divwidth1;
+    height: $divheight ;
+    background-color: $divbackground ;
+    margin: $margin;
+    margin-top:$divmargin-top;
+    background: $contentbackground;
+    border-radius: $contentborder-radius;
+    box-shadow: $contentbox-shadow;
+    animation: $animate;
+
+
+
+
+
+}
+
+.fa-facebook {
+    background-color: $iconbackground !important;
+    border-radius: $iconborder !important;
+    font-size: $font-size !important;
+    padding: $facebookpadding;
+    margin: $margin;
+    margin-top: $icontop;
+    margin-left: $facebookmargin-left;
+    color: $facebookcolor;
+    border: $facebookborder;
+}
+
+.fa-facebook:hover {
+    background-color: white !important;
+    border-radius: $iconborder !important;
+    font-size: $font-size !important;
+    padding: $facebookpadding;
+    margin: $margin;
+    margin-top: $icontop;
+    margin-left: $facebookmargin-left;
+    color: $facebookhovercolor;
+    border: $facebookhoverborder;
+}
+
+
+.fa-whatsapp {
+    border-radius: $iconborder !important;
+    font-size: $font-size !important;
+    margin: $margin;
+    margin-top: $icontop;
+    padding: $whatsapppadding;
+    margin-left: $whatsappmargin-left;
+    background-color: $whatsappbackground-color;
+    color: $whatsappcolor;
+    border: $whatsappborder;
+}
+
+.fa-whatsapp:hover {
+    border-radius: $iconborder !important;
+    font-size: $font-size !important;
+    padding: $whatsapppadding;
+    margin: $margin;
+    margin-top: $icontop;
+    margin-left: $whatsappmargin-left;
+    background-color: $whatsapphoverbackground-color;
+    color: $whatsapphovercolor ;
+    border: $whatsapphoverborder;
+}
+
+.fa-instagram {
+    border-radius: $iconborder !important;
+    font-size: $font-size !important;
+    padding: $instagrampadding;
+    border: $instagramborder;
+    background: $instagrambackground;
+    margin-left: $instagrammargin-left !important;
+    margin: $margin;
+    margin-top: $icontop;
+}
+
+.fa-instagram:hover {
+    color: $instagramhovercolor !important;
+    border: $instagramhoverborder;
+    border-radius: $iconborder !important;
+    padding: $instagrampadding;
+    font-size: $font-size !important;
+    margin: $margin;
+    margin-top: $icontop;
+    margin-left: $instagrammargin-left;
+}
+
+.content h1 {
+    margin-left: $h1left;
+}
+
+
+input[type="text"] {
+    height: $inputheight;
+    width: $inputwidth;
+    border: $inputborder;
+    margin-left: $inputmargin-left;
+    border-radius: $inputborder-radius;
+    padding-left: $placeholder !important;
+
+}
+
+input[type="password"] {
+    height: $inputheight;
+    width: $inputwidth;
+    border: $inputborder;
+    margin-left: $inputmargin-left;
+    border-radius: $inputborder-radius;
+    padding-left: $placeholder !important;
+}
+
+.btn {
+    height: $btnheight;
+    width: $btnwidth;
+    border: $btnborder;
+    margin-left: $btnmargin-left;
+    border-radius: $btnborder-radius;
+    font-size: $btnfont-size;
+    letter-spacing: $btnletter-spacing;
+
+}
+
+h3 {
+    margin-left: $h3marginleft;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    body {
+        background-image: $bodybackground-color;
+        margin:$mediamargin;
+        padding:$mediapadding ;
+        
+    }
+    
+    .mydiv {
+    
+        width:$mediadivwidth;
+        margin:$mediadivmargin;
+        margin-left: $mediadivmargin-left;
+        
+}
+    
+    .content {
+        width: $mediacontentwidth;
+        height:$mediacontentheight;
+    }
+    
+.fa-facebook {margin:$mediafacebookmargin;
+    padding:$mediafacebookpadding;
+    margin-left:$mediafacebookmargin-left;
+    margin-top:$mediafacebookmargin-top;
+}
+.fa-whatsapp 
+{margin:$mediawhatsappmargin;
+    padding:$mediawhatsapppadding;
+    margin-left:$mediawhatsappmargin-left;
+}
+.fa-instagram {margin:$mediainstagrammargin;
+    padding:$mediainstagrampadding;
+    margin-left:$mediainstagrammargin-left;
+}
+.content h1 {
+    margin-left:$mediah1margin-left;
+}
+input[type="text"] {
+ margin-left:$mediatextmargin-left;
+}
+
+input[type="password"] {
+    margin-left:$mediainputpasswordmargin-left;
+}
+.btn {
+    margin-left:$mediabtnmargin-left;
+
+}
+
+h3 {
+     margin-left: $mediah3marginleft;
+
+}
+}
